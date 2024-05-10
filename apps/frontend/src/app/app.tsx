@@ -1,4 +1,5 @@
 import Chat from '../components/Chat';
+import WebChat from '../components/WebChat';
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
@@ -6,7 +7,7 @@ import { Route, Routes, Link } from 'react-router-dom';
 export function App() {
   return (
     <div>
-      <Chat />
+      <WebChat />
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
