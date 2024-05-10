@@ -6,13 +6,13 @@ import { Route, Routes, Link } from 'react-router-dom';
 
 export function App() {
   return (
-    <div>
+    <div className="flex-1 p:2 sm:p-6 justify-between flex flex-col h-screen">
       <WebChat />
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
       {/* Feel free to move and update them to fit your needs */}
-      <br />
+      {/* <br />
       <hr />
       <br />
       <div role="navigation">
@@ -43,7 +43,7 @@ export function App() {
             </div>
           }
         />
-      </Routes>
+      </Routes> */}
       {/* END: routes */}
     </div>
   );
