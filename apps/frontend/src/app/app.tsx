@@ -1,3 +1,4 @@
+import Chat from '../components/Chat';
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
@@ -5,7 +6,7 @@ import { Route, Routes, Link } from 'react-router-dom';
 export function App() {
   return (
     <div>
-      <NxWelcome title="frontend" />
+      <Chat />
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
